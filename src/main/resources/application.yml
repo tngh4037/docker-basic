@@ -4,3 +4,7 @@ spring:
     username: root
     password: pwd1234
     driver-class-name: com.mysql.cj.jdbc.Driver
+  data:
+    redis:
+      host: my-cache-server # my-cache-server: compose.yml에서 정의한 Service 이름으로 서로 통신할 수 있다.
+      port: 6379
