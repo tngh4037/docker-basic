@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: jdbc:mysql://my-db:3306/mydb # my-db: compose.yml에서 정의한 Service 이름으로 서로 통신할 수 있다.
+    username: root
+    password: pwd1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
